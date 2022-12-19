@@ -1,0 +1,13 @@
+.footer {
+  padding-top: 120px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.copyright {
+  border-top: 1px solid #858585;
+  text-align: center;
+  color: #858585;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}

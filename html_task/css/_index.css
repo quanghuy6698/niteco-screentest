@@ -1,0 +1,30 @@
+@import "navbar.css";
+@import "banner.css";
+@import "prod.css";
+@import "footer.css";
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg-color: #21201e;
+  --text-color: #ffffff;
+  --nav-text-color: #c3c4c7;
+  --accent-color: #dec117;
+  --grey: #d1cecd;
+  --primary-color: #1a1a1a;
+}
+
+@font-face {
+  font-family: "Metric";
+  src: local("Metric"), url("../assets/fonts/metric-web/MetricWeb-Regular.ttf");
+}
+
+body {
+  font-family: "Metric";
+  font-size: 16px;
+  background-color: #21201e;
+}

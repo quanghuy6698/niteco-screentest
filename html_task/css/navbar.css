@@ -1,0 +1,30 @@
+.navbar {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #000;
+}
+
+.navbar__logo-wrapper {
+  padding-left: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__menu {
+  list-style-type: none;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar__menu-item {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 17px;
+  color: #c3c4c7;
+  font-weight: 300;
+  cursor: pointer;
+}
