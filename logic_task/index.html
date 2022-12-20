@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Finder</title>
-</head>
-<body>
-    <div class="container searchContainer">
-        <div class="search card card-body">
-            <h1>Search GitHub Users</h1>
-            <p class="lead">Enter a username to fetch a user profile and repos</p>
-            <input type="text" class="form-control" placeholder="GitHub Username" id="searchUser">
-        </div>
-        <br>
-        <div id="profile"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog breeds :))</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Dog breeds :))</h1>
+      <h2>API here: <a href="https://dog.ceo/dog-api/" target="_blank" class="dog-api">https://dog.ceo/dog-api/</a></h2>
+
+      <p>Enter a breed to see a random dog image :))</p>
+      <p>For ex: husky, chihuahua, chow, eskimo, pug, shiba, pitbull, bulldog, eskimo, corgi,...</p>
+
+      <input type="text" class="dog-input" placeholder="Enter a dog breed.." id="dogInput" />
+
+      <div class="dog-img-wrapper">
+        <img src="" id="dogImg" class="dog-img" />
+        <p id="message" class="message"></p>
+      </div>
+
+      <div id="dogBreeds" class="dog-breeds"></div>
     </div>
-    <script src="./github.js"></script>
-    <script src="./ui.js"></script>
-    <script src="./main.js"></script>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,46 @@
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.dog-api {
+  color: salmon;
+}
+
+.dog-input {
+  padding: 8px;
+  font-size: 24px;
+  background-color: royalblue;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.dog-input:focus {
+  outline: none;
+}
+
+.dog-input::placeholder {
+  color: lightblue;
+  font-size: 18px;
+}
+
+.dog-img-wrapper {
+  padding-top: 12px;
+}
+
+.dog-img {
+  max-width: 200px;
+}
+
+.dog-breeds {
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: lightgray;
+}
+
+.message {
+  color: red;
+}
